@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e6f60d0a-ebee-42ed-9e89-ed16a68b8e8f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z7vhHQgdT8pPjLOm522cyOJXCQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.FishJar">
+    <configuration name="Alcohol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Alcohol" />
+      <module name="SimpleOperationsAndCalculations" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Banicharnica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Banicharnica" />
+      <module name="SimpleOperationsAndCalculations" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DancingRoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DancingRoom" />
+      <module name="SimpleOperationsAndCalculations" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FishJar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FishJar" />
+      <module name="SimpleOperationsAndCalculations" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShivashkiTseh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShivashkiTseh" />
+      <module name="SimpleOperationsAndCalculations" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FishJar" />
+        <item itemvalue="Application.Banicharnica" />
+        <item itemvalue="Application.Alcohol" />
+        <item itemvalue="Application.DancingRoom" />
+        <item itemvalue="Application.ShivashkiTseh" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6f60d0a-ebee-42ed-9e89-ed16a68b8e8f" name="Default Changelist" comment="" />
+      <created>1584203064213</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584203064213</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1584544827222">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1584544827222" />
+    <state width="803" height="126" key="GridCell.Tab.0.bottom" timestamp="1584733889387">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="803" height="126" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584733889387" />
+    <state width="803" height="126" key="GridCell.Tab.0.center" timestamp="1584733889386">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="803" height="126" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584733889386" />
+    <state width="803" height="126" key="GridCell.Tab.0.left" timestamp="1584733889385">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="803" height="126" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584733889385" />
+    <state width="803" height="126" key="GridCell.Tab.0.right" timestamp="1584733889386">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="803" height="126" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584733889386" />
+    <state x="635" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1584892746970">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="635" y="272" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1584892746970" />
+    <state x="131" y="0" key="new project wizard" timestamp="1584892848527">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="131" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1584892848527" />
+  </component>
+</project>

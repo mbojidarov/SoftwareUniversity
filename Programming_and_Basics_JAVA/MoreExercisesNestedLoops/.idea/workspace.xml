@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fbfb29b8-73df-4bed-aaf2-fe4956c72d61" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bGMVIeFbpuVoZMRH1fCwWlsZJz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/UniquePINCodes.java" />
+  </component>
+  <component name="RunManager" selected="Application.UniquePINCodes">
+    <configuration name="SumPrimeNonPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumPrimeNonPrime" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniquePINCodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UniquePINCodes" />
+      <module name="MoreExercisesNestedLoops" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UniquePINCodes" />
+        <item itemvalue="Application.SumPrimeNonPrime" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbfb29b8-73df-4bed-aaf2-fe4956c72d61" name="Default Changelist" comment="" />
+      <created>1588253998214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588253998214</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="678" y="36" key="#SumPrimeNonPrime" timestamp="1588422676620">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="678" y="36" key="#SumPrimeNonPrime/0.0.1366.738@0.0.1366.738" timestamp="1588422676620" />
+    <state x="274" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588421664377">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="274" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1588421664377" />
+    <state x="681" y="157" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588422567542">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="681" y="157" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1588422567542" />
+    <state x="732" y="126" key="FileChooserDialogImpl" timestamp="1588422711815">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="732" y="126" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1588422711815" />
+    <state width="726" height="215" key="GridCell.Tab.0.bottom" timestamp="1588423790892">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="726" height="215" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588423790892" />
+    <state width="726" height="215" key="GridCell.Tab.0.center" timestamp="1588423790891">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="726" height="215" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588423790891" />
+    <state width="726" height="215" key="GridCell.Tab.0.left" timestamp="1588423790891">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="726" height="215" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588423790891" />
+    <state width="726" height="215" key="GridCell.Tab.0.right" timestamp="1588423790892">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="726" height="215" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588423790892" />
+    <state width="726" height="215" key="GridCell.Tab.1.bottom" timestamp="1588423790892">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="726" height="215" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588423790892" />
+    <state width="726" height="215" key="GridCell.Tab.1.center" timestamp="1588423790892">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="726" height="215" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1588423790892" />
+    <state width="726" height="215" key="GridCell.Tab.1.left" timestamp="1588423790892">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="726" height="215" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1588423790892" />
+    <state width="726" height="215" key="GridCell.Tab.1.right" timestamp="1588423790892">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="726" height="215" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1588423790892" />
+    <state x="659" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1588422396834">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="659" y="195" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1588422396834" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/UniquePINCodes.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../NestedLoopsExercise/src/SumPrimeNonPrime.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
