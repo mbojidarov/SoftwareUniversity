@@ -14,8 +14,8 @@ public class MaximalSum {
 
   //      int[][] outputMatrix = new int[3][3];
 
-        int startRow = 0;
-        int startCol = 0;
+        int startRowIndex = 0;
+        int startColIndex = 0;
         int maxSum = Integer.MIN_VALUE;
 
         for (int r = 0; r < rows - 2; r++) {
@@ -26,8 +26,8 @@ public class MaximalSum {
                 if (currentSum > maxSum){
                     maxSum = currentSum;
 
-                    startRow = r;
-                    startCol = c;
+                    startRowIndex = r;
+                    startColIndex = c;
 
 //                    outputMatrix[0][0] = matrix[r][c];
 //                    outputMatrix[0][1] = matrix[r][c + 1];
@@ -46,8 +46,8 @@ public class MaximalSum {
 
         System.out.println(String.format("Sum = %d", maxSum));
 
-        for (int r = startRow; r <= startRow + 2; r++) {
-            for (int c = startCol; c <= startCol + 2; c++) {
+        for (int r = startRowIndex; r <= startRowIndex + 2; r++) {
+            for (int c = startColIndex; c <= startColIndex + 2; c++) {
                 System.out.print(matrix[r][c] + " ");
             }
             System.out.println();
