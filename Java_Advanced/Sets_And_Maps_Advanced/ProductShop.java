@@ -36,5 +36,12 @@ public class ProductShop {
                             });
 
                 });
+                                                 // AVERAGE price included
+//        productShops.entrySet().stream()
+//                .forEach(shop -> {
+//                    System.out.println(shop.getKey() + "->");
+//                    System.out.println(shop.getValue().values().stream()
+//                            .mapToDouble(e -> e).average().orElse(0));
+//                });
     }
 }
