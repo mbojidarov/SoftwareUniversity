@@ -25,7 +25,7 @@ public class SoftUniParty {
         while (!"END".equals(inputGuest)){
             vip.remove(inputGuest);
             regular.remove(inputGuest);
-            
+
 //      NOT NECESSARY IF !!!
 //            if (Character.isDigit(inputGuest.charAt(0))) {
 //                vip.remove(inputGuest);
