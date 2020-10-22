@@ -20,9 +20,15 @@ public class SetsOfElements {
             int current = Integer.parseInt(scanner.nextLine());
             secondSet.add(current);
         }
-        for (Integer num : firstSet) {
-            if (secondSet.contains(num))
-                System.out.print(num + " ");
-        }
+
+        firstSet.retainAll(secondSet);  // Sravnqva elementite na first i second
+                                    // ostavq v first samo tezi koito se POVTARQT
+
+        firstSet.forEach(num -> System.out.println(num + " "));
+
+//        for (Integer num : firstSet) {
+//            if (secondSet.contains(num))
+//                System.out.print(num + " ");
+//        }
     }
 }
