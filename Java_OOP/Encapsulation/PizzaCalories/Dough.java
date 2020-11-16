@@ -1,15 +1,20 @@
 package PizzaCalories;
 
+import java.util.Map;
+
 public class Dough {
+
+    private static final Map<String, Double> DOUGH_MODIFIERS =
+            Map.of("White", 1.5, "Wholegrain", 1.0,
+                    "Crispy", 0.9, "Chewy", 1.1, "Homemade", 1.0);
+
     private String flourType;
     private String bakingTechnique;
     private double weight;
 
     public Dough(String flourType, String bakingTechnique, double weight) {
-//        white or wholegrain
-        this.setFlourType(flourType);
-//        crispy, chewy or homemade
-        this.setBakingTechnique(bakingTechnique);
+        this.setFlourType(flourType);   //  white or wholegrain
+        this.setBakingTechnique(bakingTechnique);   // crispy, chewy or homemade
         this.setWeight(weight);
     }
 
@@ -41,7 +46,7 @@ public class Dough {
 
     public double calculateCalories() {
 
-        return this.weight * 2 * Pizza.DOUGH_MODIFIERS.get(this.flourType)
-                * Pizza.DOUGH_MODIFIERS.get(this.bakingTechnique);
+        return this.weight * 2 * DOUGH_MODIFIERS.get(this.flourType)
+                * DOUGH_MODIFIERS.get(this.bakingTechnique);
     }
 }

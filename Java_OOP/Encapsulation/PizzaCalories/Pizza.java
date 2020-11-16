@@ -2,18 +2,8 @@ package PizzaCalories;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 public class Pizza {
-
-    public static Map<String, Double> DOUGH_MODIFIERS =
-            Map.of("White", 1.5, "Wholegrain", 1.0,
-                    "Crispy", 0.9, "Chewy", 1.1, "Homemade", 1.0);
-
-    public static Map<String, Double> TOPPINGS_MODIFIERS =
-            Map.of("Meat", 1.2, "Veggies", 0.8,
-                    "Cheese", 1.1, "Souce", 0.9);
-
     private String name;
     private Dough dough;
     private List<Topping> toppings;
@@ -21,7 +11,7 @@ public class Pizza {
     public Pizza(String name, int numberOfToppings) {
         this.setName(name);
         this.setToppings(numberOfToppings);
-        this.toppings = new ArrayList<>();
+//        this.toppings = new ArrayList<>();
     }
 
     private void setName(String name) {
@@ -38,7 +28,7 @@ public class Pizza {
             throw new IllegalArgumentException(
                     "Number of toppings should be in range [0..10].");
         }
-        toppings = new ArrayList<>();
+        toppings = new ArrayList<>(numberOfToppings);  //pre-definiran size na List-a
     }
 
     public String getName() {
@@ -49,11 +39,12 @@ public class Pizza {
         this.dough = dough;
     }
 
-    public void addToppings(Topping topping) {
+    public void addTopping(Topping topping) {
         this.toppings.add(topping);
     }
 
     public double getOverallCalories() {
+
         double calories = dough.calculateCalories();
 
         for (Topping topping : toppings) {
