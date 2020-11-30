@@ -22,7 +22,7 @@ public class Smartphone implements Callable, Browsable{
         if (!url.matches("^[^0-9]+$")){
             return "Invalid URL!";
         }
-        return "Browsing: " + url;
+        return "Browsing: " + url + "!";
     }
 
     @Override
@@ -33,7 +33,7 @@ public class Smartphone implements Callable, Browsable{
     }
 
     private String checkNumbers(String number) {
-        if (number.matches("^[^0-9]+$")){
+        if (!number.matches("^[0-9]+$")){
             return "Invalid number!";
         }
         return "Calling... " + number;
