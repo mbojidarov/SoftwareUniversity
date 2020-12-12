@@ -16,15 +16,18 @@ public abstract class GunImpl implements Gun {
     private void setBulletsCount(int bulletsCount) {
         this.bulletsCount = bulletsCount;
     }
+    protected void decreaseBullets(int amount){
+        this.bulletsCount -= amount;
+    }
 
     @Override
     public String getName() {
-        return null;
+        return this.name;
     }
 
     @Override
     public int getBulletsCount() {
-        return 0;
+        return this.bulletsCount;
     }
 
     @Override

@@ -64,6 +64,13 @@ public abstract class PlayerImpl implements Player{
 
     @Override
     public void takeDamage(int points) {
-
+        int damage = points;
+        if (damage >= this.getArmor()){
+            damage -= this.getArmor();
+            this.armor = 0;
+            this.health -= damage;
+        }else{
+            this.armor -= damage;
+        }
     }
 }

@@ -1,12 +1,18 @@
 package CounterStriker.models.guns;
 
 public class Pistol extends GunImpl{
+    public static final int BULLETS = 1;
+
     public Pistol(String name, int bulletsCount) {
         super(name, bulletsCount);
     }
 
     @Override
     public int fire() {
-        return super.fire() + 1;
+        if (super.getBulletsCount() < BULLETS){
+            return 0;
+        }
+        super.decreaseBullets(BULLETS);
+        return BULLETS;
     }
 }

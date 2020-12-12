@@ -4,30 +4,34 @@ import CounterStriker.models.guns.Gun;
 
 import java.util.Collection;
 
-//public class GunRepository<T extends Gun> implements Repository<T>{
-public class GunRepository<T> implements Repository<Gun>{
+//      Priema vsqkakav Generic koito extends GUN
 
-    private Collection<Gun> models;
+public class GunRepository<T extends Gun> implements Repository<T> {
+//public class GunRepository<T> implements Repository<Gun>{
 
+    private Collection<T> models;
 
 
     @Override
-    public Collection<Gun> getModels() {
-        return null;
+    public Collection<T> getModels() {
+        return models;
     }
 
     @Override
-    public void add(Gun model) {
-
+    public void add(T model) {
+        models.add(model);
     }
 
     @Override
-    public boolean remove(Gun model) {
-        return false;
+    public boolean remove(T model) {
+        return models.remove(model);
     }
 
     @Override
-    public Gun findByName(String name) {
-        return null;
+    public T findByName(String name) {
+        return this.models
+                .stream()
+                .filter(m -> m.getName().equals(name))
+                .findFirst().orElse(null);
     }
 }
