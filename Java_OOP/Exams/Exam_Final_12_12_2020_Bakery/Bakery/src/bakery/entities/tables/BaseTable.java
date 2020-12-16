@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 
+import static bakery.common.ExceptionMessages.*;
+
 public abstract class BaseTable implements Table {
     private Collection<BakedFood> foodOrders;
     private Collection<Drink> drinkOrders;
@@ -25,7 +27,7 @@ public abstract class BaseTable implements Table {
         Collection<BakedFood> foodOrders = new ArrayList<>();
         Collection<Drink> drinkOrders = new ArrayList<>();
         this.setNumberOfPeople(numberOfPeople);
-        this.isReserved();
+        this.isReserved = false;
         this.setPrice(price);
     }
 
@@ -38,10 +40,16 @@ public abstract class BaseTable implements Table {
     }
 
     public void setCapacity(int capacity) {
+        if (capacity < 0) {
+            throw new IllegalArgumentException(INVALID_TABLE_CAPACITY);
+        }
         this.capacity = capacity;
     }
 
     public void setNumberOfPeople(int numberOfPeople) {
+        if (capacity <= 0) {
+            throw new IllegalArgumentException(INVALID_NUMBER_OF_PEOPLE);
+        }
         this.numberOfPeople = numberOfPeople;
     }
 
@@ -55,61 +63,73 @@ public abstract class BaseTable implements Table {
 
     @Override
     public int getTableNumber() {
-        return 0;
+        return this.tableNumber;
     }
 
     @Override
     public int getCapacity() {
-        return 0;
+        return this.capacity;
     }
 
     @Override
     public int getNumberOfPeople() {
-        return 0;
+        return this.numberOfPeople;
     }
 
     @Override
     public double getPricePerPerson() {
-        return 0;
+        return this.pricePerPerson;
     }
 
     @Override
     public boolean isReserved() {
-        return false;
+        return isReserved;
     }
 
     @Override
     public double getPrice() {
-        return 0;
+        return getPricePerPerson() * getNumberOfPeople();
     }
 
     @Override
     public void reserve(int numberOfPeople) {
-
+        this.setNumberOfPeople(numberOfPeople);
+        isReserved = true;
     }
 
     @Override
     public void orderFood(BakedFood food) {
-
+        foodOrders.add(food);
     }
 
     @Override
     public void orderDrink(Drink drink) {
-
+        drinkOrders.add(drink);
     }
 
     @Override
     public double getBill() {
-        return 0;
+        return this.getPrice(); //todo
     }
 
     @Override
     public void clear() {
-
+        foodOrders.clear();
+        drinkOrders.clear();
+        isReserved = false;
+        numberOfPeople = 0;
+        price = 0;
     }
 
     @Override
     public String getFreeTableInfo() {
-        return null;
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("Table: ").append(getTableNumber()).append(System.lineSeparator())
+                .append("Table: ").append(this.getClass().getSimpleName()).append(System.lineSeparator())
+                .append("Capacity ").append(getCapacity()).append(System.lineSeparator())
+                .append(String.format("Price per Person: %.2f", getPricePerPerson()));
+
+        return sb.toString().trim();
     }
 }
